@@ -2,12 +2,7 @@ package jp.ac.uryukyu.ie.e235709;
 
 public class Main {
     public static void main(String[] args) {
-        String str = null;
-        try {
-            System.out.println(str.length());
-        } catch (java.lang.NullPointerException e) {
-            System.out.println("java.lang.NullPointerExceptionが発生しました。");
-            System.out.println(e.getMessage());
-        }
+        String str = "壱百満";
+        int value=Integer.parseInt(str);
     }
 }
